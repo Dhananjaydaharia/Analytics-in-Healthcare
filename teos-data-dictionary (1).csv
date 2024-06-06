@@ -1,0 +1,26 @@
+TEOS Index - Data Dictionary ,,,
+Column Heading,XML Index File Location,PDF Index File Location,Explaination
+RETURN_ID,Column A,Column A,An unique identifer that is assigned to the return by the system for IRS use. (This column is blank on the XML Index).
+FILING_TYPE,Column B,Column B,"Indicates if the return was filed as paper or efile. (For the XML data it will always be Efile)
+1. E = Efile
+2. P = Paper"
+EIN,Column C,Column C,Employer Identification Number
+TAX_PERIOD,Column D,Column D,Period of the tax return (YYYYMM Format)
+SUB_DATE,Column E,Column E,"1. XML = Year submitted to IRS.
+2. PDF = Date restricted/redacted."
+TAXPAYER_NAME,Column F,Column F,Name of taxpayer
+RETURN_TYPE,Column G,Column G,"Type of Return filed:
+1. 990 - Form 990 501(c)(3)
+2. 990O - Form 990 other than 501(c)(3)
+3. 990A - Form 990 Amended
+4. 990EZ - Form 990EZ 501(c)(3)
+5. 990EO - Form 990EZ other than 501(c)(3)
+6.  990EA - Form 990EZ Amended
+7. 990PF - Form 990PF 501(c)(3)
+8. 990PO - Form 990PF other than 501(c)(3)
+9.  990PA - Form 990PF Amended
+10. 990T - Form 990-T 501(c)(3)
+11. 990TA - Form 990-T Amended
+"
+DLN,Column H,Not on Index,Document Locator Number a unique identifer that is assigned to the return for IRS use.
+OBJECT_ID,Column I,Not on Index,Another unique identifer that is assigned to the return by the system for IRS use.
