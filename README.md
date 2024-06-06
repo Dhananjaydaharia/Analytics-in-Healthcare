@@ -1,2 +1,2 @@
 # Analytics-in-Healthcare
-Deals with analyzing the data related to US Healthcare system. MRF files to be used in this analysis to enhance the decision making
+US- Healthcare anysis work: Deals with analyzing the data related to US Healthcare system. MRF data to be used in this analysis to enhance the decision making
